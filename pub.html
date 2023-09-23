@@ -388,7 +388,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <span><a href="#"><img border="0" width="100"
+                <span><a href="index.html"><img border="0" width="100"
                             src="https://digitalassets.okstate.edu/m/5edd2b756cf31c9c/original/Logo-Web-Ready.svg" /></a></span>
             </div>
 
@@ -396,18 +396,57 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="/">
-                            Home<span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <b>Home</b><span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();"
-                                    href="index.html">Introduction</a></li>
-                            <li><a href="bio.html">Biography</a></li>
+                                    href="index.html#intro">Introduction</a></li>
+                            <li><a href="index.htmlbio.html">Biography</a></li>
                             <li><a href="cv.html">CV (Web)</a></li>
                             <li><a target="_blank" href="cv.pdf">CV (PDF)</a></li>
                         </ul>
                     </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:reset_menus();$('#tab-news-content').show();" 
+                        href="index.html#news"><b>News</b></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <b>Publications</b><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();"
+                                    href="index.html#publications">Selected</a></li>
+                            <li><a href="pub.html">All</a></li>
+                        </ul>
+                    </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:reset_menus();$('#tab-courses-content').show();"
+                            href="index.html#courses"><b>Courses</b></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:reset_menus();$('#tab-service-content').show();"
+                            href="index.html#research_position"><b>Student Service</b></a>
+                    </li>
+                    <!-- <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Awards</a>
+                        </li> -->
+                    <!-- <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Advising</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Talks</a>
+                        </li> -->
 
 
+                    <li class="page-scroll">
+                        <a onclick="javascript:reset_menus();$('#tab-contact-content').show();"
+                            href="index.html#contact"><b>Contact</b></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </a>
+                    </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
 
