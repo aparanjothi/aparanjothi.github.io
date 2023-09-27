@@ -49,7 +49,8 @@
         .news-alerts {
 
             color: #000;
-            width: 150%;
+            /* width: 150%; */
+            width: 128%;
             max-width: 720px;
             margin: 10px auto;
             height: 250px;
@@ -63,7 +64,8 @@
             position: relative;
             left: 0px;
             top: 20px;
-            width: 100%;
+            /* width: 100%; */
+            width: auto;
             max-width: 720px;
             margin: 10px auto;
             height: 300px;
@@ -97,9 +99,11 @@
             color: 000;
             font-size: 18px;
             text-decoration: none;
-            text-align: center;
+            text-align: left;
             vertical-align: middle;
             word-wrap: normal;
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Arrange content in a column */
         }
 
 
@@ -119,6 +123,11 @@
             margin: 1px;
         }
 
+        .Scriptcontent h2
+        {
+            width: 128%
+            /* width: 150% */
+        }
 
 
 
@@ -616,15 +625,11 @@
                                                 class="date-display-single" property="dc:date" datatype="xsd:dateTime"
                                                 content="2023-06-26T00:00:00+05:30"
                                                 style="font-size: 15px"><b>2023:</b></span></span><a target="_blank">
-                                                <p class="three" style="text-align: justify; font-size: 16px">
+                                                <p class="three" style="text-align: left; font-size: 16px">
                                                     <b>Delivered a keynote
                                                         in
                                                         Oklahoma Transportation Research Day organized by the Oklahoma
-                                                        &nbsp;&nbsp;
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-                                                        &nbsp;&nbsp;
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department
+                                                        Department
                                                         of Transportation<span></span< /b>
                                                 </p>
                                             </a>
