@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Older News and Activities | Anirudh Paranjothi</title>
+  <meta name="description" content="ANTS Research Lab news and activities from 2022–2025, organized by year.">
+  <meta property="og:title" content="Older News and Activities | Anirudh Paranjothi">
+  <meta property="og:description" content="Research, publications, funding, and student milestones from the ANTS lab, 2022–2025.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./images/ChatGPT Image Sep 15, 2026 at 04_28_40 PM.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#132238;--muted:#5f6f82;--line:#e4eaf0;--bg:#f7f9fc;--card:#fff;--accent:#f47b20;--accent2:#0d6b7d;--navy:#0d1b2a;--shadow:0 18px 50px rgba(20,35,55,.08)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--bg);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7}a{color:var(--accent2);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1120px,92%);margin:auto}
+    nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;justify-content:space-between;min-height:68px}.brand{font-family:"Space Grotesk";font-weight:700;color:var(--ink);letter-spacing:-.02em}.brand span{color:var(--accent)}.links{display:flex;gap:24px;font-size:.92rem;font-weight:600}.links a{color:#425268}.links a:hover{color:var(--accent);text-decoration:none}
+    .hero{background:linear-gradient(135deg,#0d1b2a 0%,#12394b 60%,#0d6b7d 100%);color:#fff;padding:88px 0 76px}.hero-grid{display:grid;grid-template-columns:1.5fr .75fr;gap:60px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:700;color:#9ed7de}.hero h1{font-family:"Space Grotesk";font-size:clamp(2.7rem,6vw,5rem);line-height:1.02;letter-spacing:-.045em;margin:14px 0 18px}.hero h1 em{font-style:normal;color:#ffad6f}.hero .role{font-size:1.15rem;color:#d9e7ed;margin-bottom:22px}.hero .summary{max-width:760px;color:#d3e1e7;font-size:1.02rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 17px;border-radius:10px;font-weight:700;border:1px solid rgba(255,255,255,.25)}.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.btn.ghost{color:#fff;background:rgba(255,255,255,.08)}.portrait{display:flex;justify-content:center}.portrait img{width:250px;height:250px;object-fit:cover;border-radius:32px;border:5px solid rgba(255,255,255,.18);box-shadow:0 24px 60px rgba(0,0,0,.28)}
+    section{padding:76px 0}.section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:30px}.kicker{text-transform:uppercase;letter-spacing:.15em;font-size:.75rem;font-weight:800;color:var(--accent)}h2{font-family:"Space Grotesk";font-size:2.15rem;line-height:1.15;margin:7px 0 0;letter-spacing:-.03em}h3{font-family:"Space Grotesk";margin:0 0 7px;line-height:1.25}.lead{max-width:800px;color:var(--muted)}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-35px;position:relative}.stat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow)}.stat strong{display:block;font-family:"Space Grotesk";font-size:1.15rem}.stat span{color:var(--muted);font-size:.86rem}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:25px;box-shadow:var(--shadow)}.card p{margin:0;color:var(--muted)}.tag{display:inline-block;font-size:.73rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--accent2);background:#e9f5f6;border-radius:999px;padding:4px 9px;margin-bottom:14px}
+    .timeline{display:grid;gap:14px}.item{display:grid;grid-template-columns:100px 1fr;gap:20px;padding:20px 0;border-top:1px solid var(--line)}.item:first-child{border-top:0}.date{font-weight:800;color:var(--accent);font-size:.86rem}.item p{margin:0;color:var(--muted)}
+    .pubs{display:grid;gap:14px}.pub{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;display:grid;grid-template-columns:70px 1fr;gap:18px}.year{font-family:"Space Grotesk";font-weight:700;color:var(--accent)}.pub-title{font-weight:700;color:var(--ink);margin-bottom:5px}.pub-meta{font-size:.9rem;color:var(--muted)}.doi{font-size:.84rem;font-weight:700;display:inline-block;margin-top:7px}
+    .funding{background:#0d1b2a;color:#fff}.funding .lead{color:#c9d9e1}.funding .section-head .kicker{color:#ffad6f}.fund-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);box-shadow:none}.fund-card p{color:#c9d9e1}.amount{font-family:"Space Grotesk";font-size:1.45rem;color:#ffb77d;font-weight:700;margin-bottom:4px}
+    .split{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.list{margin:0;padding-left:20px;color:var(--muted)}.list li{margin:8px 0}.contact{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px}.contact strong{display:block;margin-bottom:4px}.footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.86rem}
+    @media(max-width:850px){.hero-grid,.split{grid-template-columns:1fr}.portrait{order:-1;justify-content:flex-start}.portrait img{width:180px;height:180px;border-radius:24px}.links{gap:12px}.links a:nth-child(n+5){display:none}.stats,.grid-3{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.nav{min-height:60px}.brand{font-size:.95rem}.hero{padding:60px 0}.hero h1{font-size:2.8rem}.stats,.grid-3{grid-template-columns:1fr}.item{grid-template-columns:1fr;gap:2px}.pub{grid-template-columns:1fr;gap:5px}section{padding:58px 0}.section-head{display:block}}
+      section[id]{scroll-margin-top:84px}.archive-year + .archive-year{padding-top:0}.archive-year .timeline{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px 24px;box-shadow:var(--shadow)}.footer{margin-top:24px}.hero .actions{margin-top:24px}@media(max-width:560px){.links{gap:8px;font-size:.8rem}.links a:nth-child(n+4){display:none}}
+  </style>
+</head>
+<body>
+  <nav><div class="wrap nav"><a class="brand" href="index.html#top">Anirudh <span>Paranjothi</span></a><div class="links"><a href="index.html#research">Research</a><a href="index.html#publications">Publications</a><a href="index.html#news">News</a><a href="index.html#funding">Funding</a><a href="index.html#teaching">Teaching</a><a href="index.html#contact">Contact</a></div></div></nav>
+  <header class="hero" id="top"><div class="wrap"><div class="eyebrow">ANTS Research Lab · News archive</div><h1>Older news <em>&amp; activities</em></h1><p class="summary">Research milestones, publications, funding, and student achievements from 2022–2025.</p><div class="actions" aria-label="Browse announcements by year"><a class="btn ghost" href="#year-2025">2025</a><a class="btn ghost" href="#year-2024">2024</a><a class="btn ghost" href="#year-2023">2023</a><a class="btn ghost" href="#year-2022">2022</a><a class="btn primary" href="index.html#news">Recent news →</a></div></div></header>
+  <main>
+    <section class="archive-year" id="year-2025" aria-labelledby="heading-2025"><div class="wrap"><div class="section-head"><div><div class="kicker">News &amp; activities</div><h2 id="heading-2025">2025</h2></div></div><div class="timeline">
+      <article class="item"><div class="date">October</div><div><h3>IEEE WPMC</h3><p>Paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">September</div><div><h3>IRF R2T Global Conference</h3><p>Paper acceptance — Vamsi and Charan.</p></div></article>
+      <article class="item"><div class="date">August</div><div><h3>IEEE WiMob</h3><p>Paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">July</div><div><h3>IEEE Vehicular Technology Conference</h3><p>Paper acceptance — Geetha Charan.</p></div></article>
+      <article class="item"><div class="date">May</div><div><h3>International Conference on Network and Communications Security (NCS 2025)</h3><p>Paper acceptance — Geetha and Abinash.</p></div></article>
+      <article class="item"><div class="date">April</div><div><h3>MDPI Electronics</h3><p>Journal paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">March</div><div><h3>Elsevier Computer Networks</h3><p>Journal paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">February</div><div><h3>ASCE ICTD 2025</h3><p>Paper acceptance — Vamsi.</p></div></article>
+      <article class="item"><div class="date">January</div><div><h3>IEEE CCWC 2025</h3><p>Paper acceptance — Vamsi.</p></div></article>
+      <article class="item"><div class="date">January</div><div><h3>U.S. Department of Transportation grant</h3><p>Dr. Paranjothi serves as Co-PI on a $15M award for autonomous-vehicle research serving rural and tribal communities. OSU share $4M.</p></div></article>
+    </div></div></section>
+    <section class="archive-year" id="year-2024" aria-labelledby="heading-2024"><div class="wrap"><div class="section-head"><div><div class="kicker">News &amp; activities</div><h2 id="heading-2024">2024</h2></div></div><div class="timeline">
+      <article class="item"><div class="date">December</div><div><h3>MDPI Electronics</h3><p>Journal paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">December</div><div><h3>IEEE GLOBECOM</h3><p>Paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">November</div><div><h3>IEEE WPMC</h3><p>Paper acceptance — Stevens and Abinash.</p></div></article>
+      <article class="item"><div class="date">November</div><div><h3>Wiley ITL</h3><p>Journal paper acceptance — Morton.</p></div></article>
+      <article class="item"><div class="date">October</div><div><h3>SPTC and U.S. Department of Transportation grant</h3><p>Dr. Paranjothi received $60,000 plus $60,000 in matching support as PI to investigate autonomous-vehicle readiness in Oklahoma’s rural and tribal communities.</p></div></article>
+      <article class="item"><div class="date">September</div><div><h3>NSF RET grant</h3><p>A $595,953 award with Dr. Paranjothi as Co-PI.</p></div></article>
+      <article class="item"><div class="date">July</div><div><h3>Wiley Encyclopedia of Electrical and Electronics Engineering</h3><p>Book chapter acceptance — Abinash and Gideon.</p></div></article>
+      <article class="item"><div class="date">May</div><div><h3>IEEE AIIoT</h3><p>Paper acceptance — Gideon.</p></div></article>
+      <article class="item"><div class="date">March</div><div><h3>IEEE SmartNets 2024</h3><p>Paper acceptance — Chandler.</p></div></article>
+      <article class="item"><div class="date">January</div><div><h3>IEEE CCWC 2024</h3><p>Paper acceptance — Gideon.</p></div></article>
+      <article class="item"><div class="date">January</div><div><h3>IEEE CCWC 2024</h3><p>Paper acceptance — Chandler.</p></div></article>
+      <article class="item"><div class="date">January</div><div><h3>IEEE CCNC 2024</h3><p>Paper acceptance — Chandler.</p></div></article>
+    </div></div></section>
+    <section class="archive-year" id="year-2023" aria-labelledby="heading-2023"><div class="wrap"><div class="section-head"><div><div class="kicker">News &amp; activities</div><h2 id="heading-2023">2023</h2></div></div><div class="timeline">
+      <article class="item"><div class="date">November</div><div><h3>IEEE WPMC 2023</h3><p>Paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">October</div><div><h3>IEEE CCNC 2024</h3><p>Research paper accepted.</p></div></article>
+      <article class="item"><div class="date">September</div><div><h3>IEEE UEMCON 2023</h3><p>Paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">September</div><div><h3>VTC Fall 2023</h3><p>Research paper accepted.</p></div></article>
+      <article class="item"><div class="date">September</div><div><h3>Sensors Journal</h3><p>Dr. Paranjothi serves as Guest Editor.</p></div></article>
+      <article class="item"><div class="date">August</div><div><h3>Journal of Networks and Computer Applications</h3><p>Dr. Paranjothi serves as Editor.</p></div></article>
+      <article class="item"><div class="date">August</div><div><h3>IEEE IPCCC 2023</h3><p>Paper acceptance — Abinash.</p></div></article>
+      <article class="item"><div class="date">July</div><div><h3>Oklahoma Transportation Research Day</h3><p>Dr. Paranjothi gave a keynote at this Oklahoma Department of Transportation event.</p></div></article>
+      <article class="item"><div class="date">July</div><div><h3>Morton Thomas</h3><p>Joined the lab for a BS Honors Thesis.</p></div></article>
+      <article class="item"><div class="date">July</div><div><h3>AI-Enhanced Green Communications for Smart Cities</h3><p>Dr. Paranjothi serves on the workshop’s program committee.</p></div></article>
+      <article class="item"><div class="date">June</div><div><h3>Oklahoma Department of Transportation</h3><p>Research grant awarded.</p></div></article>
+      <article class="item"><div class="date">June</div><div><h3>Mohammed Suratwala</h3><p>Completed the MS degree.</p></div></article>
+      <article class="item"><div class="date">January</div><div><h3>Adele Gideon</h3><p>Joined the lab for PhD study.</p></div></article>
+    </div></div></section>
+    <section class="archive-year" id="year-2022" aria-labelledby="heading-2022"><div class="wrap"><div class="section-head"><div><div class="kicker">News &amp; activities</div><h2 id="heading-2022">2022</h2></div></div><div class="timeline">
+      <article class="item"><div class="date">November</div><div><h3>Abinash</h3><p>Passed the diagnostic exam.</p></div></article>
+      <article class="item"><div class="date">September</div><div><h3>Reece Harrel</h3><p>Joined the lab through the BS Honors program.</p></div></article>
+      <article class="item"><div class="date">August</div><div><h3>Mohammed Suratwala</h3><p>Joined the lab for MS study.</p></div></article>
+      <article class="item"><div class="date">August</div><div><h3>Abinash Borah</h3><p>Joined the lab for PhD study.</p></div></article>
+    </div></div></section>
+    <div class="wrap"><p class="lead">Archive compiled from the <a href="https://cas.okstate.edu/computer_science/about_us/dr_paranjothi_lab/announcements">OSU ANTS lab announcements</a>.</p><div class="actions"><a class="btn primary" href="index.html#news">← Back to recent news</a><a class="btn" href="#top">Back to top ↑</a></div></div>
+  </main>
+  <footer class="footer"><div class="wrap">© 2026 Anirudh Paranjothi · Department of Computer Science · Oklahoma State University · <a href="https://cas.okstate.edu/computer_science/about_us/dr_paranjothi_lab">ANTS Research Lab</a></div></footer>
+</body>
+</html>
