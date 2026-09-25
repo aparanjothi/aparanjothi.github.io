@@ -27,7 +27,8 @@
     @media(max-width:850px){.hero-grid,.split{grid-template-columns:1fr}.portrait{order:-1;justify-content:flex-start}.portrait img{width:180px;height:180px;border-radius:24px}.links{gap:12px}.links a:nth-child(n+5){display:none}.stats,.grid-3{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:560px){.nav{min-height:60px}.brand{font-size:.95rem}.hero{padding:60px 0}.hero h1{font-size:2.8rem}.stats,.grid-3{grid-template-columns:1fr}.item{grid-template-columns:1fr;gap:2px}.pub{grid-template-columns:1fr;gap:5px}section{padding:58px 0}.section-head{display:block}}
       section[id]{scroll-margin-top:84px}.archive-year + .archive-year{padding-top:0}.archive-year .timeline{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px 24px;box-shadow:var(--shadow)}.footer{margin-top:24px}.hero .actions{margin-top:24px}@media(max-width:560px){.links{gap:8px;font-size:.8rem}.links a:nth-child(n+4){display:none}}
-  </style>
+  .links a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:8px}
+</style>
 
 <link rel="icon" href="/ap-brush-circle.ico" sizes="16x16 32x32 48x48 64x64">
 <link rel="icon" type="image/png" sizes="32x32" href="/ap-brush-circle-32.png">
@@ -35,7 +36,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/ap-brush-circle-touch.png">
 </head>
 <body>
-  <nav><div class="wrap nav"><a class="brand" href="index.html#top">Anirudh <span>Paranjothi</span></a><div class="links"><a href="index.html#research">Research</a><a href="index.html#publications">Publications</a><a href="index.html#news">News</a><a href="index.html#funding">Funding</a><a href="index.html#teaching">Teaching</a><a href="index.html#contact">Contact</a></div></div></nav>
+  <nav><div class="wrap nav"><a class="brand" href="index.html#top">Anirudh <span>Paranjothi</span></a><div class="links"><a href="index.html#research">Research</a><a href="index.html#publications">Publications</a><a href="index.html#news" aria-current="page">News</a><a href="index.html#funding">Funding</a><a href="index.html#teaching">Teaching</a><a href="index.html#contact">Contact</a></div></div></nav>
   <header class="hero" id="top"><div class="wrap"><div class="eyebrow">ANTS Research Lab · News Archive</div><h1>News <em>Archive</em></h1><p class="summary">Research milestones, publications, funding, and student achievements from 2022–2025.</p><div class="actions" aria-label="Browse announcements by year"><a class="btn ghost" href="#year-2025">2025</a><a class="btn ghost" href="#year-2024">2024</a><a class="btn ghost" href="#year-2023">2023</a><a class="btn ghost" href="#year-2022">2022</a><a class="btn primary" href="index.html#news">Recent news →</a></div></div></header>
   <main>
     <section class="archive-year" id="year-2025" aria-labelledby="heading-2025"><div class="wrap"><div class="section-head"><div><div class="kicker">News &amp; activities</div><h2 id="heading-2025">2025</h2></div></div><div class="timeline">
