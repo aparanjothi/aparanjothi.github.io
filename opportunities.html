@@ -42,10 +42,22 @@
   .nav{gap:24px}.nav .brand{flex-shrink:0}.nav .links{gap:16px;align-items:center}.nav .links a{white-space:nowrap}.nav .links a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:8px}
   @media(max-width:1100px){.nav{flex-wrap:wrap;padding:12px 0;gap:10px}.nav .links{width:100%;flex-wrap:wrap;gap:10px 18px}.nav .links a:nth-child(n+5){display:inline-flex}html{scroll-padding-top:150px}}
   @media(max-width:560px){.nav .links{font-size:.8rem;gap:10px 15px}html{scroll-padding-top:180px}}
+</style><style id="shared-inner-navigation">
+nav.site-navigation{position:relative;top:auto;z-index:20;background:#fff;border:0;border-bottom:1px solid #e4eaf0;font-family:Inter,Arial,sans-serif}
+.site-navigation .site-nav-inner{box-sizing:border-box;max-width:1180px;margin:0 auto;padding:19px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.site-navigation .site-brand{font-size:16px;font-weight:800;color:#132238;white-space:nowrap;text-decoration:none}
+.site-navigation .site-brand span{color:#f47b20}
+.site-navigation .site-links{display:flex;flex-wrap:wrap;align-items:center;gap:14px 18px}
+.site-navigation .site-links a{font-size:13px;line-height:1.6;font-weight:700;color:#132238;border:0;background:none;padding:0;text-decoration:none}
+.site-navigation .site-links a:hover{color:#c95600}
+.site-navigation .site-links a[aria-current="page"]{color:#132238;text-decoration:underline;text-decoration-color:#f47b20;text-decoration-thickness:3px;text-underline-offset:8px}
+.site-navigation a:focus-visible{outline:3px solid #0d6b7d;outline-offset:5px}
+@media(max-width:1000px){.site-navigation .site-nav-inner{align-items:flex-start;flex-direction:column;gap:12px}}
+@media(max-width:600px){.site-navigation .site-nav-inner{padding:16px 20px}.site-navigation .site-links{gap:12px 16px}}
 </style></head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<nav aria-label="Main navigation"><div class="wrap nav"><a class="brand" href="index.html">Anirudh <span>Paranjothi</span></a><div class="links"><a href="index.html">Home</a><a href="index.html#research">Research</a><a href="index.html#news">News</a><a href="pub.html">Publications</a><a href="index.html#funding">Funding</a><a href="index.html#teaching">Teaching</a><a href="opportunities.html" aria-current="page">Opportunities</a></div></div></nav>
+<nav class="site-navigation" aria-label="Main navigation"><div class="site-nav-inner"><a class="site-brand" href="index.html">Anirudh <span>Paranjothi</span></a><div class="site-links"><a href="index.html">Home</a><a href="index.html#research">Research</a><a href="index.html#news">News</a><a href="pub.html">Publications</a><a href="grants.html">Funding</a><a href="index.html#teaching">Teaching</a><a href="team.html">Team</a><a href="opportunities.html" aria-current="page">Opportunities</a></div></div></nav>
 <header class="hero"><div class="wrap"><div class="eyebrow">ANTS Research Lab · Oklahoma State University</div><h1>Research opportunities in<br><em>secure and intelligent networks</em></h1><div class="role">Ph.D. · M.S. Thesis · Undergraduate Research</div><p class="summary">Join Dr. Anirudh Paranjothi in investigating the security, reliability, and performance of connected systems—from autonomous vehicles and edge platforms to next-generation wireless networks.</p><div class="actions"><a class="btn primary" href="#opportunities">Explore opportunities ↓</a><a class="btn ghost" href="pub.html">Read our publications →</a></div></div></header>
 <main id="main"><div class="wrap"><div class="jump-links" role="navigation" aria-label="On this page"><span class="menu-label">On this page</span><a href="#research">Research areas</a><a href="#phd">Ph.D.</a><a href="#masters">M.S. thesis</a><a href="#undergraduate">Undergraduate</a><a href="#inquire">How to inquire</a></div></div>
 <section id="research"><div class="wrap"><div class="section-head"><div><div class="kicker">Research alignment</div><h2>Questions that connect our work</h2></div><p class="lead">The lab studies how communication and computing systems can remain trustworthy under mobility, resource constraints, and adversarial behavior.</p></div><div class="research-grid">

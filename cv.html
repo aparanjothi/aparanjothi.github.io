@@ -24,93 +24,24 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/ap-brush-circle-32.png">
 <link rel="icon" type="image/svg+xml" sizes="any" href="/ap-brush-circle.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="/ap-brush-circle-touch.png">
-</head>
+<style id="shared-inner-navigation">
+nav.site-navigation{position:relative;top:auto;z-index:20;background:#fff;border:0;border-bottom:1px solid #e4eaf0;font-family:Inter,Arial,sans-serif}
+.site-navigation .site-nav-inner{box-sizing:border-box;max-width:1180px;margin:0 auto;padding:19px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.site-navigation .site-brand{font-size:16px;font-weight:800;color:#132238;white-space:nowrap;text-decoration:none}
+.site-navigation .site-brand span{color:#f47b20}
+.site-navigation .site-links{display:flex;flex-wrap:wrap;align-items:center;gap:14px 18px}
+.site-navigation .site-links a{font-size:13px;line-height:1.6;font-weight:700;color:#132238;border:0;background:none;padding:0;text-decoration:none}
+.site-navigation .site-links a:hover{color:#c95600}
+.site-navigation .site-links a[aria-current="page"]{color:#132238;text-decoration:underline;text-decoration-color:#f47b20;text-decoration-thickness:3px;text-underline-offset:8px}
+.site-navigation a:focus-visible{outline:3px solid #0d6b7d;outline-offset:5px}
+@media(max-width:1000px){.site-navigation .site-nav-inner{align-items:flex-start;flex-direction:column;gap:12px}}
+@media(max-width:600px){.site-navigation .site-nav-inner{padding:16px 20px}.site-navigation .site-links{gap:12px 16px}}
+</style></head>
 
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="glyphicon glyphicon-search"></span>
-                </button>
-                <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <span><a href="index.html"><img border="0" width="100"
-                            src="https://digitalassets.okstate.edu/m/5edd2b756cf31c9c/original/Logo-Web-Ready.svg" /></a></span>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            Home<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();"
-                                    href="index.html#intro">Introduction</a></li>
-                            <li><a href="bio.html">Biography</a></li>
-                            <li><a href="cv.html">CV (Web)</a></li>
-                            <li><a target="_blank" href="cv.pdf">CV (PDF)</a></li>
-                        </ul>
-                    </li>
-                    <li class="page-scroll">
-                        <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="index.html">News</a>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="pub.html">
-                            Publications<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();"
-                                    href="index.html#publications">Selected</a></li>
-                            <li><a href="pub.html">All</a></li>
-                        </ul>
-                    </li>
-                    <li class="page-scroll">
-                        <a onclick="javascript:reset_menus();$('#tab-courses-content').show();"
-                            href="index.html#courses">Courses</a>
-                    </li>
-
-                    <li class="page-scroll">
-                        <a onclick="javascript:reset_menus();$('#tab-service-content').show();"
-                            href="index.html#sponsor"><b>Sponsor</b></a>
-                    </li>
-
-                    
-                    <li class="page-scroll">
-                        <a onclick="javascript:reset_menus();$('#tab-service-content').show();"
-                            href="index.html#research_position">Student Service</a>
-                    </li>
-
-                    <li class="page-scroll">
-                        <a onclick="javascript:reset_menus();$('#tab-contact-content').show();"
-                            href="index.html#contact">Contact</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
-                            <span class="glyphicon glyphicon-search"></span>
-                        </a>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-
-            <!-- search box submenu -->
-            <div class="collapse" id="bs-example-navbar-collapse-2">
-                <gcse:search></gcse:search>
-            </div>
-
-        </div><!-- /.container-fluid -->
-    </nav>
+    <nav class="site-navigation" aria-label="Main navigation"><div class="site-nav-inner"><a class="site-brand" href="index.html">Anirudh <span>Paranjothi</span></a><div class="site-links"><a href="index.html">Home</a><a href="index.html#research">Research</a><a href="index.html#news">News</a><a href="pub.html">Publications</a><a href="grants.html">Funding</a><a href="index.html#teaching">Teaching</a><a href="team.html">Team</a><a href="opportunities.html">Opportunities</a></div></div></nav>
     <section>
         <!-- Place this tag where you want the search results to render -->
         <gcse:searchresults-only></gcse:searchresults-only>
